@@ -4,21 +4,21 @@ const btn_2 = document.querySelector('.btn-2')
 const btn_3 = document.querySelector('.btn-3')
 const bodyCnt = document.querySelector('body')
 
-function colorSwitcher(caption,color, opec) {
+function colorSwitcher(caption,color, ) {
      text.innerHTML = caption
      bodyCnt.style.backgroundColor = color
-     text.style.opacity = opec
+     text.style.opacity =1
 }
 
 
 btn_1.addEventListener('click', ()=>{
-    colorSwitcher('YOU MEAN THE WORLD TO ME', '#ea1d19', '1')
+    colorSwitcher('YOU MEAN THE WORLD TO ME', '#ea1d19', )
     
    
 })
 
 btn_2.addEventListener('click', ()=>{
-    colorSwitcher('YOU ARE BEAUTIFUL', '#f7f70c')
+    colorSwitcher('YOU ARE BEAUTIFUL', '#f7f70c' )
     
    
 })
